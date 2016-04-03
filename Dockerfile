@@ -19,6 +19,4 @@ RUN \
   echo "disk=/tmp/stxxl,25000,syscall" > /build/.stxxl && \
   rm -rf /src
 
-WORKDIR /build
-ADD run.sh run.sh
 EXPOSE 5000
